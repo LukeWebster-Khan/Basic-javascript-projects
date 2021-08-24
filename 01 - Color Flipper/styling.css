@@ -1,0 +1,54 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  background: black;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: gray;
+  font-size: large;
+  font-weight: 700;
+  width: 100%;
+  margin: -8px;
+  min-height: 50px;
+}
+
+.navbar:hover {
+    background-color: skyblue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  font-size: x-large;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-size: larger;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+
+span {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
