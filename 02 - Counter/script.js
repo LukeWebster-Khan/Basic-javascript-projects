@@ -1,15 +1,13 @@
 let count = 0;
 
-// value and buttons
 const value = document.querySelector("#value");
 const btns = document.querySelectorAll(".btn");
 
 console.log(btns);
-//comment
 
-btns.forEach(function (btn) {
-  btn.addEventListener("click", function (e) {
-    const styles = e.currentTarget.classList;
+btns.forEach((btn) => {
+  btn.addEventListener("click", (event) => {
+    const styles = event.currentTarget.classList;
     if (styles.contains("dec")) {
       count--;
     } else if (styles.contains("inc")) {
@@ -17,6 +15,6 @@ btns.forEach(function (btn) {
     } else {
       count = 0;
     }
-    value.textContent = count;
+    value.innerHTML = count;
   });
 });
