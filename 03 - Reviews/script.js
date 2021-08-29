@@ -4,28 +4,28 @@ const reviews = [
     name: "RayMan",
     job: "Web Developer",
     img: "https://static.tvtropes.org/pmwiki/pub/images/rayman_3.png",
-    text: "1Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+    text: "1Lorem ipsum dolor sit, amet consectetur adipisicing elit. 3Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
   {
     id: 2,
     name: "Globox",
     job: "Frontend dev",
-    img: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/rayman-legends/f/f8/Globox.jpg",
-    text: "2Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+    img: "https://raymanpc.com/wiki/script-en/images/thumb/1/13/Globox_RL.png/300px-Globox_RL.png",
+    text: "2Lorem ipsum dolor sit, amet consectetur adipisicing elit. 3Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
   {
     id: 3,
     name: "Teensie",
     job: "Backend Dev",
     img: "https://raymanpc.com/wiki/script-en/images/thumb/2/28/Teensy_-_R2_Model.png/369px-Teensy_-_R2_Model.png",
-    text: "3Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+    text: "3Lorem ipsum dolor sit, amet consectetur adipisicing elit. 3Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
   {
     id: 4,
     name: "Murphy",
     job: "Full Stack Dev",
     img: "https://raymanpc.com/wiki/script-en/images/e/e7/Murphy_R2Model.png",
-    text: "4Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+    text: "4Lorem ipsum dolor sit, amet consectetur adipisicing elit. 3Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
 ];
 
@@ -75,6 +75,7 @@ prevBtn.addEventListener("click", function () {
   showPerson();
 });
 
+// random person
 random.addEventListener("click", function () {
   currentItem = Math.floor(Math.random() * 4);
   showPerson();
