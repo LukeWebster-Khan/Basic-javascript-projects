@@ -1,5 +1,57 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
 .nav-center {
-    overflow: hidden;
-    background-color: #333;
-    position: relative;
+  overflow: hidden;
+  background-color: rgb(235, 235, 235);
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.myLinks {
+  display: flex;
+  align-items: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 100%;
+  transition-duration: 1000ms;
+  transition-timing-function: 1000ms;
+  line-height: 50px;
+}
+.fa:hover {
+  opacity: 0.7;
+  transform: rotate(360deg);
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #363636;
+  color: white;
 }
