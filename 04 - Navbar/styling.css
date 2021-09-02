@@ -4,6 +4,7 @@
   font-size: 20px;
   margin-left: 10px;
   text-decoration: none;
+  color: black;
 }
 
 .nav-header {
@@ -24,6 +25,9 @@
 .myLinks {
   display: flex;
   align-items: center;
+  letter-spacing: 1px;
+  font-weight: 900;
+  transition-duration: 1000ms;
 }
 
 .fa {
