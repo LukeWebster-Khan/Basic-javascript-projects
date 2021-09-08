@@ -28,6 +28,7 @@
   letter-spacing: 1px;
   font-weight: 700;
   transition-duration: 1000ms;
+  overflow: hidden;
 }
 
 .social-media {
