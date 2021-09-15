@@ -31,8 +31,11 @@
   overflow: hidden;
 }
 
+.myLinks a {
+  transition: all 1s ease-in-out;
+}
+
 .myLinks a:hover {
-  transition: 500ms;
   color:white;
   font-size: larger;
   margin-top: 5px;
