@@ -109,3 +109,14 @@
   display: block;
   text-align: left;
 }
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color ease-in-out;
+}
+
+.icon:hover {
+  color:red;
+}
