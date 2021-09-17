@@ -99,6 +99,12 @@
   }
 }
 
+@media screen and (min-width: 700px) {
+  .burger i {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .nav-header.responsive {
     position: relative;
@@ -110,13 +116,13 @@
   text-align: left;
 }
 
-.icon {
+.burger {
   display: flex;
   align-items: center;
   justify-content: center;
   transition: color ease-in-out;
 }
 
-.icon:hover {
+.burger:hover {
   color:red;
 }
