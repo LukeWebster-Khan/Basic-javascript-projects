@@ -36,7 +36,7 @@
 }
 
 .myLinks a:hover {
-  color:white;
+  color: white;
   font-size: larger;
   margin-top: 5px;
 }
@@ -124,5 +124,11 @@
 }
 
 .burger:hover {
-  color:red;
+  color: red;
+}
+
+@media screen and (min-width: 700px) {
+  .burger {
+    display: none;
+  }
 }
