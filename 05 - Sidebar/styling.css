@@ -1,0 +1,78 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+
+.title {
+  border-style: solid;
+}
+
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.sidenav a {
+  padding: 5px;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+.sidenav a:hover {
+  font-size: 35px;
+}
+.fa:hover {
+  opacity: 0.7;
+  transform: rotate(360deg);
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #363636;
+  color: white;
+}
+.social-media {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 100%;
+  transition-duration: 1000ms;
+  transition-timing-function: 1000ms;
+  line-height: 25px;
+}
+
+.container {
+  max-width: 500px;
+}
+
+.icon {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-decoration: none;
+}
