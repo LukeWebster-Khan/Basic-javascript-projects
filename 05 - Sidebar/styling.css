@@ -5,6 +5,7 @@
 
 .title {
   border-style: solid;
+  border-radius: 5px;
 }
 
 .sidenav {
@@ -70,9 +71,5 @@
 }
 
 .icon {
-  display: flex;
-  position: absolute;
-  top: 0;
-  right: 0;
   text-decoration: none;
 }
