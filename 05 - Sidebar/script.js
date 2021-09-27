@@ -5,4 +5,11 @@ function myFunction() {
     } else {
       x.style.display = "flex";
     }
+  
+  var y = document.getElementById("social-media");
+  if (y.style.display === "flex") {
+    y.style.display = "none";
+  } else {
+    y.style.display = "flex";
   }
+}
