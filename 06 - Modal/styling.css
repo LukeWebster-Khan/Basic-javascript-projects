@@ -43,3 +43,7 @@ body {
 button {
   width: 100px;
 }
+
+.modal-div {
+  display: none;
+}
