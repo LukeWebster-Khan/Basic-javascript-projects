@@ -5,4 +5,3 @@ This is a lil project practicing my DOM manipulation skills to replicate the pop
 This was insprired by a list of suggested project from FreeCodeCamp
 
 ![Doodler image](/Doodler/DoodlerImage.PNG)
-Format: ![Alt Text](url)
