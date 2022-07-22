@@ -1,0 +1,37 @@
+*{
+    margin:none;
+    padding:none;
+}
+.html{
+    height: 100vh;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 600px;
+    position: relative;
+    background-size: 40px 40px;
+    background-color: beige;
+    background-image:
+      linear-gradient(to right, #dadada 1px, transparent 1px),
+      linear-gradient(to bottom, #dadada 1px, transparent 1px);}
+
+.doodler{
+    width: 50px;
+    height: 100px;
+    background-color: rgb(193 226 47);
+    position: absolute;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+
+.platform{
+    position: absolute;
+    width: 75px;
+    height: 15px;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
