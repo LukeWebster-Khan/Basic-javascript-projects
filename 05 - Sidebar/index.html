@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styling.css" />
+    <link rel="stylesheet" href="/05 - Sidebar/styling.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -9,29 +9,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="/05 - Sidebar/script.js"></script>
     <title>Sidebar</title>
   </head>
   <body>
     <div class="container">
-      <div class="title">My Sidebar<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars" style='margin-left: 280px;'></i>
-      </a></div>
-      
+      <div class="title">
+        My Sidebar<a
+          href="javascript:void(0);"
+          class="icon"
+          onclick="myFunction()"
+        >
+          <i class="fa fa-bars" style="margin-left: 280px"></i>
+        </a>
+      </div>
+
       <div class="sidenav" id="myLinks">
         <a>Home</a>
         <a>About</a>
         <a>Projects</a>
         <a>Contact</a>
       </div>
-      <div class="social-media" id='social-media'>
+      <div class="social-media" id="social-media">
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-youtube"></a>
         <a href="#" class="fa fa-linkedin"></a>
         <a href="#" class="fa fa-github"></a>
         <a href="#" class="icon"></a>
       </div>
-      
     </div>
-    <script src='/script.js'></script>
   </body>
 </html>
