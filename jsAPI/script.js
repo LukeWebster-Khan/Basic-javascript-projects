@@ -1,4 +1,4 @@
-console.log(
+function getData() {
   fetch("https://api.github.com/users/LukeWebster-Khan").then((response) => {
     if (response.ok) {
       console.log("Success");
@@ -6,6 +6,14 @@ console.log(
       console.log("failure");
     }
     response.json().then((data) => console.log(data));
-  })
-);
-console.log(data.login);
+    let userData = data;
+    return data;
+  });
+}
+let data = getData();
+console.log(data);
+
+const body = document.body;
+const h1 = document.createElement("h1");
+h1.innerText = "Test Header";
+body.append(h1);
