@@ -8,8 +8,31 @@ function fetchData() {
       return res.json();
     })
     .then((data) => {
+      let url = data.avatar_url;
+      console.log(url);
       console.log(data);
-      document.getElementById("app").innerHTML = data.name;
+      document.getElementById("app").insertAdjacentHTML(
+        "beforebegin",
+        `<div class="container">
+        <div class="avatar">
+        <img src="${url}" />
+        </div>
+        <div class="details">
+        <h1>${data.name}</h1>
+        <h2>${data.login}</h2>
+        <p>${data.bio}</p>
+        </div>
+        <button>Edit Profile</button>
+        <div class="follows">
+        <p>${data.followers}</p>
+        <p>${data.following}</p>
+        </div>
+        <ul class="card-details">
+        <li>${data.company}</li>
+        <li>${data.location}</li>
+        </ul>
+        </div>`
+      );
     })
     .catch((err) => console.log(err));
 }
