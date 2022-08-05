@@ -5,7 +5,13 @@
     margin: 0;
     padding: 0;
 }
-
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 20px;
+    font-weight: 300;
+}
 .avatar {
     border-radius: 50%;
     height: 300px;
@@ -21,4 +27,39 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; */
+}
+
+.follows{
+    display: flex;
+    align-items: center;
+}
+
+svg{
+    fill: white;
+}
+
+button{
+    background-color: #272b33;
+}
+
+.btn{
+    position: relative;
+    display: inline-block;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    border: 1px solid;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.details{
+    padding: 16px 0px;
 }
